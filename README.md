@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Caly Frontend
 
-# Run and deploy your AI Studio app
+Caly — a scheduling/meeting application built with Vite and React + TypeScript.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/fd616f27-5126-44d0-89c7-ae5078bef9f3
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
+## Setup
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+```bash
+npm install
+```
+
+2. Start the dev server:
+
+```bash
+npm run dev
+```
+
+3. Build for production:
+
+```bash
+npm run build
+```
+
+## Project structure
+- `src/` — React source files
+- `src/pages` — page components
+- `src/components` — UI components
+- `src/api` — axios config
+
+## Notes
+- Create a `.env` or copy `.env.example` as needed for environment variables.
