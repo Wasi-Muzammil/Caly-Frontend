@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <div className="w-6 h-6 rounded bg-zinc-100 flex items-center justify-center text-zinc-600 text-[10px] font-bold border border-zinc-200">
-                  {user.name.charAt(0)}
+                  {user?.name?.charAt(0)}
                 </div>
                 <span className="text-xs font-medium text-zinc-600">{user.name}</span>
               </div>
